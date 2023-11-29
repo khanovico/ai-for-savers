@@ -3,7 +3,7 @@
 -- Enable the pgvector extension to work with embedding vectors
 create extension vector;
 
--- Create a table to store your documents
+-- Create a new table to store your documents
 create table documents (
   id bigserial primary key,
   content text, -- corresponds to Document.pageContent
